@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapi.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+footer { /*El pie */
+    background-color: #F6D2D2;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+  }
+  .footer-content p {/*texto  */
+    margin: 5px 0;
+    font-size: 14px; 
+  } 
+  .card p { /*texto del nav */
+    font-size: 16px;
+    color: #666;
+  } 
+  
+   
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  .card img { 
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  .cards-container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  .card { 
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+  }
+  nav{ 
+    display: flex;/*activar flexbox*/
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #1f2b5c;
+   
+}
+nav img{/*tamaño de imagen del nav*/
+    width: 100px;
+    
+    
+}
+nav a{ /*texto del nav */
+    text-decoration: none;
+    size: 19px;
+    color: black;
+    text-align: center; 
+    
+}
+nav a:hover{ /* efecto del texto en el nav*/
+    text-decoration: underline;
+}
+.card_center
+{
+    padding: 20px;
+    text-align: center;
+
+}
+.card_ñontent { 
+    padding: 20px;
+    text-align: center;
+    background-color: j;
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+ 
+  body {/*arreglitos del body*/
+    margin: 0;
+    padding: 0;
+    font-family: 'IM+Fell+English', Courier, monospace;
+    background-color: #F8F1F1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+ /*para telefonos celulares*/
+ @media (width <= 480px){
+  nav{
+    flex-direction: column;
+  }
+  .container{
+    flex-direction: column-reverse;
+    gap: 20px;
+
+  }
+  footer{
+    flex-direction: column;
+  }
+}
+header img
+{
+     mix-blend-mode: multiply;
+}
